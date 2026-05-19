@@ -288,25 +288,25 @@ CIRO ships with a four-scenario automated test suite. Each script injects a stru
 
 ---
 
-#### `node backend/test-1-benign-noise.js` — Noise Filtering & Credibility Validation
+#### `node backend/tests/test-1-benign-noise.js` — Noise Filtering & Credibility Validation
 
 Injects an ambiguous, low-credibility signal (e.g., a vague social post) to validate that the Analysis Agent correctly **rejects** the signal and does not create a false-positive crisis pin. Demonstrates the swarm's gatekeeping logic.
 
 ---
 
-#### `node backend/test-2-flood-escalation.js` — Resource Constraint Reasoning
+#### `node backend/tests/test-2-flood-escalation.js` — Resource Constraint Reasoning
 
 Injects a severe flood signal into a region where only an ambulance is registered as available. Demonstrates the Orchestration Agent's constraint-aware reasoning: it correctly refuses to deploy an ambulance for water rescue and escalates the crisis instead of hallucinating an inappropriate dispatch.
 
 ---
 
-#### `node backend/test-3-api-integration.js` — Structured Webhook Processing
+#### `node backend/tests/test-3-api-integration.js` — Structured Webhook Processing
 
 Injects a machine-formatted JSON payload (simulating a structured Maps API webhook) to validate the pipeline's ability to process programmatic signals alongside unstructured social text. Tests the `inferred_location` schema when GPS coordinates arrive pre-formed from an external system.
 
 ---
 
-#### `node backend/test-4-golden-demo.js` — Full Multi-Unit Coordinated Emergency Simulation
+#### `node backend/tests/test-4-golden-demo.js` — Full Multi-Unit Coordinated Emergency Simulation
 
 The definitive end-to-end demonstration run. Injects a high-severity, multi-resource emergency and observes:
 
