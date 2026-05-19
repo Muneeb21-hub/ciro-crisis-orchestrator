@@ -37,6 +37,8 @@ ciro-mobile/dist/
 ciro-mobile/web-build/
 ciro-mobile/android
 ciro-mobile/package-lock.json
+ciro-mobile/firebaseConfig.js
+ciro-mobile/.vscode
 *.jks
 *.p8
 *.p12
