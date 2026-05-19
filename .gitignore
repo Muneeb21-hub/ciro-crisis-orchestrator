@@ -15,7 +15,8 @@ firebase-debug.log
 firebase-debug.*.log
 .firebase/
 
-doc
+docs/agent_traces
+docs/agent_traces.zip
 # Firebase Cloud Functions (if compiled)
 backend/lib/
 backend/node_modules/
