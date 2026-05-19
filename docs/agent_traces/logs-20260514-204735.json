@@ -1,0 +1,977 @@
+[
+  {
+    "insertId": "6a05eae600047922e3c705f6",
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "https://ingestionagent-n7kooqduga-uc.a.run.app/?__GCP_CloudEventsMode=CE_PUBSUB_BINDING",
+      "requestSize": "2809",
+      "status": 200,
+      "responseSize": "82",
+      "userAgent": "APIs-Google; (+https://developers.google.com/webmasters/APIs-Google.html)",
+      "remoteIp": "74.125.215.166",
+      "serverIp": "34.143.73.2",
+      "latency": "4.952088814s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "location": "us-central1",
+        "service_name": "ingestionagent",
+        "project_id": "ciro-antigravity-2026",
+        "revision_name": "ingestionagent-00003-zuj",
+        "configuration_name": "ingestionagent"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:45.142801Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-id": "ingestionagent",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "run.googleapis.com/cloud_event_id": "d56c6117-c965-4b47-99be-9e967fb8dbb8",
+      "run.googleapis.com/cloud_event_source": "//firestore.googleapis.com/projects/ciro-antigravity-2026/databases/(default)",
+      "instanceId": "0007b734d96eb39e9f6c18d4985ca26062cb1ab3115a7b949988600dac553697d0333fbca7dee6405a91697972d88ef509b8c1d249d19d024c78a09810d57a23be381727696586ea91c3e71d00937e"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Frequests",
+    "trace": "projects/ciro-antigravity-2026/traces/349a2ef29a61d9e93971c2026b9c17dd",
+    "receiveTimestamp": "2026-05-14T15:31:50.298997521Z",
+    "spanId": "ff0747cddbaaba7f",
+    "traceSampled": true
+  },
+  {
+    "textPayload": "Starting new instance. Reason: AUTOSCALING - Instance started due to configured scaling factors (e.g. CPU utilization, request throughput, etc.) or no existing capacity for current traffic.",
+    "insertId": "6a05eae10002fb508ffcc0bf",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "ingestionagent-00003-zuj",
+        "configuration_name": "ingestionagent",
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "ingestionagent",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:45.195408Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "scaling_reason": "AUTOSCALING",
+      "goog-drz-cloudfunctions-id": "ingestionagent",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "instanceId": "0007b734d96eb39e9f6c18d4985ca26062cb1ab3115a7b949988600dac553697d0333fbca7dee6405a91697972d88ef509b8c1d249d19d024c78a09810d57a23be381727696586ea91c3e71d00937e"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2026-05-14T15:31:45.201202268Z"
+  },
+  {
+    "textPayload": "◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]",
+    "insertId": "6a05eae1000e434226ae842f",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "ingestionagent-00003-zuj",
+        "configuration_name": "ingestionagent",
+        "location": "us-central1",
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "ingestionagent"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:45.934722Z",
+    "labels": {
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "instanceId": "0007b734d96eb39e9f6c18d4985ca26062cb1ab3115a7b949988600dac553697d0333fbca7dee6405a91697972d88ef509b8c1d249d19d024c78a09810d57a23be381727696586ea91c3e71d00937e",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-id": "ingestionagent"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2026-05-14T15:31:45.939400104Z"
+  },
+  {
+    "textPayload": "Default STARTUP TCP probe succeeded after 1 attempt for container \"worker\" on port 8080.",
+    "insertId": "6a05eae2000924ddea05b566",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "ingestionagent-00003-zuj",
+        "configuration_name": "ingestionagent",
+        "location": "us-central1",
+        "service_name": "ingestionagent",
+        "project_id": "ciro-antigravity-2026"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:46.599261Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-drz-cloudfunctions-id": "ingestionagent",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "instanceId": "0007b734d96eb39e9f6c18d4985ca26062cb1ab3115a7b949988600dac553697d0333fbca7dee6405a91697972d88ef509b8c1d249d19d024c78a09810d57a23be381727696586ea91c3e71d00937e",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2026-05-14T15:31:46.868877356Z"
+  },
+  {
+    "textPayload": "Ingestion Agent triggered for signal: Kj3pueu0n4qTPyh9oRKi",
+    "insertId": "6a05eae2000a7cc8be0acc3d",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "service_name": "ingestionagent",
+        "project_id": "ciro-antigravity-2026",
+        "location": "us-central1",
+        "configuration_name": "ingestionagent",
+        "revision_name": "ingestionagent-00003-zuj"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:46.687304Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-drz-cloudfunctions-id": "ingestionagent",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "instanceId": "0007b734d96eb39e9f6c18d4985ca26062cb1ab3115a7b949988600dac553697d0333fbca7dee6405a91697972d88ef509b8c1d249d19d024c78a09810d57a23be381727696586ea91c3e71d00937e",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "execution_id": "5nccj94szp57",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/349a2ef29a61d9e93971c2026b9c17dd",
+    "receiveTimestamp": "2026-05-14T15:31:46.939932338Z",
+    "spanId": "18376735753987865215"
+  },
+  {
+    "textPayload": "Ingestion Agent Output: {\n  \"event_type\": \"flood\",\n  \"credibility_score\": 90,\n  \"severity_estimate\": 8,\n  \"summary\": \"Heavy flooding is reported in G-10 markaz, Islamabad, with water submerging vehicles and people stranded, prompting an urgent call for help.\",\n  \"flags\": [\n    \"Lacks specific details on number of people affected or exact water levels.\"\n  ]\n}",
+    "insertId": "6a05eae500082ba08cdfd017",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "ingestionagent",
+        "revision_name": "ingestionagent-00003-zuj",
+        "service_name": "ingestionagent",
+        "project_id": "ciro-antigravity-2026",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:49.535456Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-drz-cloudfunctions-id": "ingestionagent",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "instanceId": "0007b734d96eb39e9f6c18d4985ca26062cb1ab3115a7b949988600dac553697d0333fbca7dee6405a91697972d88ef509b8c1d249d19d024c78a09810d57a23be381727696586ea91c3e71d00937e",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "execution_id": "5nccj94szp57",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/349a2ef29a61d9e93971c2026b9c17dd",
+    "receiveTimestamp": "2026-05-14T15:31:49.605554739Z",
+    "spanId": "18376735753987865215"
+  },
+  {
+    "textPayload": "Successfully staged normalized signal.",
+    "insertId": "6a05eae600044deaaee6fbd2",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "ingestionagent-00003-zuj",
+        "configuration_name": "ingestionagent",
+        "service_name": "ingestionagent",
+        "project_id": "ciro-antigravity-2026",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:50.282090Z",
+    "severity": "INFO",
+    "labels": {
+      "instanceId": "0007b734d96eb39e9f6c18d4985ca26062cb1ab3115a7b949988600dac553697d0333fbca7dee6405a91697972d88ef509b8c1d249d19d024c78a09810d57a23be381727696586ea91c3e71d00937e",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "execution_id": "5nccj94szp57",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "goog-drz-cloudfunctions-id": "ingestionagent",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/349a2ef29a61d9e93971c2026b9c17dd",
+    "receiveTimestamp": "2026-05-14T15:31:50.603429414Z",
+    "spanId": "18376735753987865215"
+  },
+  {
+    "insertId": "6a05eaed00000dd3795a5568",
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "https://analysisagent-n7kooqduga-uc.a.run.app/?__GCP_CloudEventsMode=CE_PUBSUB_BINDING",
+      "requestSize": "3256",
+      "status": 200,
+      "responseSize": "82",
+      "userAgent": "APIs-Google; (+https://developers.google.com/webmasters/APIs-Google.html)",
+      "remoteIp": "64.233.172.129",
+      "serverIp": "34.143.74.2",
+      "latency": "5.870738967s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "analysisagent",
+        "revision_name": "analysisagent-00003-qup",
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "analysisagent",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:50.974723Z",
+    "severity": "INFO",
+    "labels": {
+      "run.googleapis.com/cloud_event_source": "//firestore.googleapis.com/projects/ciro-antigravity-2026/databases/(default)",
+      "instanceId": "0007b734d9850ba74eca67ad17e2142c5d8816d0e23f97c4cdf2bdd56c9ea02ad2c24140c44a9e1094bfc0bb698376b1df71ed0fe02764b7610c8ea7f0133c67a49d9cf9d1961629a5e06a977177c9",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "run.googleapis.com/cloud_event_id": "6ce1fcee-2d8b-481b-a5da-93b51f012f02",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-drz-cloudfunctions-id": "analysisagent"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Frequests",
+    "trace": "projects/ciro-antigravity-2026/traces/d7aa413d1aaf2e9b4ecfac8c2d7830fa",
+    "receiveTimestamp": "2026-05-14T15:31:57.009158998Z",
+    "spanId": "c683954c51b01a34",
+    "traceSampled": true
+  },
+  {
+    "textPayload": "Starting new instance. Reason: AUTOSCALING - Instance started due to configured scaling factors (e.g. CPU utilization, request throughput, etc.) or no existing capacity for current traffic.",
+    "insertId": "6a05eae70000680f24ee7158",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "analysisagent",
+        "location": "us-central1",
+        "configuration_name": "analysisagent",
+        "revision_name": "analysisagent-00003-qup"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:51.026639Z",
+    "severity": "INFO",
+    "labels": {
+      "instanceId": "0007b734d9850ba74eca67ad17e2142c5d8816d0e23f97c4cdf2bdd56c9ea02ad2c24140c44a9e1094bfc0bb698376b1df71ed0fe02764b7610c8ea7f0133c67a49d9cf9d1961629a5e06a977177c9",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "goog-drz-cloudfunctions-id": "analysisagent",
+      "scaling_reason": "AUTOSCALING",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2026-05-14T15:31:51.033663970Z"
+  },
+  {
+    "textPayload": "◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }",
+    "insertId": "6a05eae700081f8e76afb7c6",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "analysisagent",
+        "revision_name": "analysisagent-00003-qup",
+        "service_name": "analysisagent",
+        "project_id": "ciro-antigravity-2026",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:51.532366Z",
+    "labels": {
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "instanceId": "0007b734d9850ba74eca67ad17e2142c5d8816d0e23f97c4cdf2bdd56c9ea02ad2c24140c44a9e1094bfc0bb698376b1df71ed0fe02764b7610c8ea7f0133c67a49d9cf9d1961629a5e06a977177c9",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-id": "analysisagent"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2026-05-14T15:31:51.543844525Z"
+  },
+  {
+    "textPayload": "Default STARTUP TCP probe succeeded after 1 attempt for container \"worker\" on port 8080.",
+    "insertId": "6a05eae80001e32e6d8d9af2",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "analysisagent-00003-qup",
+        "configuration_name": "analysisagent",
+        "location": "us-central1",
+        "service_name": "analysisagent",
+        "project_id": "ciro-antigravity-2026"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:52.123694Z",
+    "severity": "INFO",
+    "labels": {
+      "instanceId": "0007b734d9850ba74eca67ad17e2142c5d8816d0e23f97c4cdf2bdd56c9ea02ad2c24140c44a9e1094bfc0bb698376b1df71ed0fe02764b7610c8ea7f0133c67a49d9cf9d1961629a5e06a977177c9",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "goog-drz-cloudfunctions-id": "analysisagent",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2026-05-14T15:31:52.364625492Z"
+  },
+  {
+    "textPayload": "Analysis Agent triggered for staged signal: Kj3pueu0n4qTPyh9oRKi",
+    "insertId": "6a05eae80002a2210a994e43",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "analysisagent-00003-qup",
+        "configuration_name": "analysisagent",
+        "location": "us-central1",
+        "service_name": "analysisagent",
+        "project_id": "ciro-antigravity-2026"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:52.172577Z",
+    "severity": "INFO",
+    "labels": {
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "execution_id": "5ncgrpp4samr",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "instanceId": "0007b734d9850ba74eca67ad17e2142c5d8816d0e23f97c4cdf2bdd56c9ea02ad2c24140c44a9e1094bfc0bb698376b1df71ed0fe02764b7610c8ea7f0133c67a49d9cf9d1961629a5e06a977177c9",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-id": "analysisagent"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/d7aa413d1aaf2e9b4ecfac8c2d7830fa",
+    "receiveTimestamp": "2026-05-14T15:31:52.209727699Z",
+    "spanId": "14304440996479375924"
+  },
+  {
+    "textPayload": "Analysis Agent Output: {\"is_crisis\":true,\"type\":\"flood\",\"severity\":8,\"confidence_score\":90,\"affected_radius\":1500,\"affected_population\":7500,\"expected_duration\":8.0}",
+    "insertId": "6a05eaec000450019f2e45f9",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "analysisagent",
+        "location": "us-central1",
+        "configuration_name": "analysisagent",
+        "revision_name": "analysisagent-00003-qup"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:56.282625Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-drz-cloudfunctions-id": "analysisagent",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "instanceId": "0007b734d9850ba74eca67ad17e2142c5d8816d0e23f97c4cdf2bdd56c9ea02ad2c24140c44a9e1094bfc0bb698376b1df71ed0fe02764b7610c8ea7f0133c67a49d9cf9d1961629a5e06a977177c9",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "execution_id": "5ncgrpp4samr"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/d7aa413d1aaf2e9b4ecfac8c2d7830fa",
+    "receiveTimestamp": "2026-05-14T15:31:56.542609423Z",
+    "spanId": "14304440996479375924"
+  },
+  {
+    "textPayload": "🔥 Crisis Declared! Document created in ActiveCrises with ID: crisis_Kj3pueu0n4qTPyh9oRKi",
+    "insertId": "6a05eaec000f2ce755688d83",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "location": "us-central1",
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "analysisagent",
+        "configuration_name": "analysisagent",
+        "revision_name": "analysisagent-00003-qup"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:56.994535Z",
+    "severity": "INFO",
+    "labels": {
+      "execution_id": "5ncgrpp4samr",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "instanceId": "0007b734d9850ba74eca67ad17e2142c5d8816d0e23f97c4cdf2bdd56c9ea02ad2c24140c44a9e1094bfc0bb698376b1df71ed0fe02764b7610c8ea7f0133c67a49d9cf9d1961629a5e06a977177c9",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-drz-cloudfunctions-id": "analysisagent"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/d7aa413d1aaf2e9b4ecfac8c2d7830fa",
+    "receiveTimestamp": "2026-05-14T15:31:57.207903575Z",
+    "spanId": "14304440996479375924"
+  },
+  {
+    "insertId": "6a05eaf00001bfddf5109256",
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "https://orchestrationagent-n7kooqduga-uc.a.run.app/?__GCP_CloudEventsMode=CE_PUBSUB_BINDING",
+      "requestSize": "2818",
+      "status": 200,
+      "responseSize": "82",
+      "userAgent": "APIs-Google; (+https://developers.google.com/webmasters/APIs-Google.html)",
+      "remoteIp": "74.125.212.225",
+      "serverIp": "34.143.73.2",
+      "latency": "2.253166133s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "orchestrationagent-00002-gul",
+        "configuration_name": "orchestrationagent",
+        "service_name": "orchestrationagent",
+        "project_id": "ciro-antigravity-2026",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:57.697810Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-id": "orchestrationagent",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "run.googleapis.com/cloud_event_id": "4ef777ca-0981-4eec-9b02-8c25242916e5",
+      "instanceId": "0007b734d95aba60d254d73bed82e553bb972d2773a2ceaecdcaf29e7f46fc357d72141db613097e7af66bb2b5138d79bcd3d63e94bac81c02c036e3b80f63b11cff339ea854cc27740e8d79461d74",
+      "run.googleapis.com/cloud_event_source": "//firestore.googleapis.com/projects/ciro-antigravity-2026/databases/(default)"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Frequests",
+    "trace": "projects/ciro-antigravity-2026/traces/0d48bf7608cbb1e75aa05840cf73e074",
+    "receiveTimestamp": "2026-05-14T15:32:00.123868363Z",
+    "spanId": "4d7706a9dd5cbe85",
+    "traceSampled": true
+  },
+  {
+    "textPayload": "Starting new instance. Reason: AUTOSCALING - Instance started due to configured scaling factors (e.g. CPU utilization, request throughput, etc.) or no existing capacity for current traffic.",
+    "insertId": "6a05eaed000b5a1196e22fe2",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "orchestrationagent",
+        "revision_name": "orchestrationagent-00002-gul",
+        "service_name": "orchestrationagent",
+        "project_id": "ciro-antigravity-2026",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:57.743953Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "scaling_reason": "AUTOSCALING",
+      "goog-drz-cloudfunctions-id": "orchestrationagent",
+      "instanceId": "0007b734d95aba60d254d73bed82e553bb972d2773a2ceaecdcaf29e7f46fc357d72141db613097e7af66bb2b5138d79bcd3d63e94bac81c02c036e3b80f63b11cff339ea854cc27740e8d79461d74",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2026-05-14T15:31:57.750755673Z"
+  },
+  {
+    "textPayload": "◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }",
+    "insertId": "6a05eaee0004f15bd9e99bb6",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "orchestrationagent",
+        "revision_name": "orchestrationagent-00002-gul",
+        "location": "us-central1",
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "orchestrationagent"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:58.323931Z",
+    "labels": {
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-id": "orchestrationagent",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "instanceId": "0007b734d95aba60d254d73bed82e553bb972d2773a2ceaecdcaf29e7f46fc357d72141db613097e7af66bb2b5138d79bcd3d63e94bac81c02c036e3b80f63b11cff339ea854cc27740e8d79461d74"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "receiveTimestamp": "2026-05-14T15:31:58.329089596Z"
+  },
+  {
+    "textPayload": "Default STARTUP TCP probe succeeded after 1 attempt for container \"worker\" on port 8080.",
+    "insertId": "6a05eaee000c49a6754471c0",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "orchestrationagent-00002-gul",
+        "configuration_name": "orchestrationagent",
+        "location": "us-central1",
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "orchestrationagent"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:58.805286Z",
+    "severity": "INFO",
+    "labels": {
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "instanceId": "0007b734d95aba60d254d73bed82e553bb972d2773a2ceaecdcaf29e7f46fc357d72141db613097e7af66bb2b5138d79bcd3d63e94bac81c02c036e3b80f63b11cff339ea854cc27740e8d79461d74",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-id": "orchestrationagent"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2026-05-14T15:31:59.082269827Z"
+  },
+  {
+    "textPayload": "Orchestration Agent triggered for crisis: crisis_Kj3pueu0n4qTPyh9oRKi",
+    "insertId": "6a05eaee000d9ca42ec1e2bc",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "orchestrationagent",
+        "revision_name": "orchestrationagent-00002-gul",
+        "location": "us-central1",
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "orchestrationagent"
+      }
+    },
+    "timestamp": "2026-05-14T15:31:58.892068Z",
+    "severity": "INFO",
+    "labels": {
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "execution_id": "5nclyb7rz3i8",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "instanceId": "0007b734d95aba60d254d73bed82e553bb972d2773a2ceaecdcaf29e7f46fc357d72141db613097e7af66bb2b5138d79bcd3d63e94bac81c02c036e3b80f63b11cff339ea854cc27740e8d79461d74",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-id": "orchestrationagent"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/0d48bf7608cbb1e75aa05840cf73e074",
+    "receiveTimestamp": "2026-05-14T15:31:58.994453Z",
+    "spanId": "5581937589782101637"
+  },
+  {
+    "textPayload": "Error in Orchestration Agent: ApiError: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}\n    at throwErrorIfNotOK (/workspace/node_modules/@google/genai/dist/node/index.cjs:13425:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async /workspace/node_modules/@google/genai/dist/node/index.cjs:13125:13\n    at async Models.generateContent (/workspace/node_modules/@google/genai/dist/node/index.cjs:14533:24)\n    at async /workspace/index.js:303:26 {\n  status: 503\n}",
+    "insertId": "6a05eaf00001864d48f4455b",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "orchestrationagent-00002-gul",
+        "configuration_name": "orchestrationagent",
+        "service_name": "orchestrationagent",
+        "project_id": "ciro-antigravity-2026",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2026-05-14T15:32:00.099917Z",
+    "severity": "ERROR",
+    "labels": {
+      "execution_id": "5nclyb7rz3i8",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "instanceId": "0007b734d95aba60d254d73bed82e553bb972d2773a2ceaecdcaf29e7f46fc357d72141db613097e7af66bb2b5138d79bcd3d63e94bac81c02c036e3b80f63b11cff339ea854cc27740e8d79461d74",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-drz-cloudfunctions-id": "orchestrationagent"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstderr",
+    "trace": "projects/ciro-antigravity-2026/traces/0d48bf7608cbb1e75aa05840cf73e074",
+    "receiveTimestamp": "2026-05-14T15:32:00.125813865Z",
+    "spanId": "5581937589782101637",
+    "errorGroups": [
+      {
+        "id": "CJC9_56K-PnyEg"
+      }
+    ]
+  },
+  {
+    "insertId": "6a05ed7400095700b69ae5b3",
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "https://ingestionagent-n7kooqduga-uc.a.run.app/?__GCP_CloudEventsMode=CE_PUBSUB_BINDING",
+      "requestSize": "2808",
+      "status": 200,
+      "responseSize": "82",
+      "userAgent": "APIs-Google; (+https://developers.google.com/webmasters/APIs-Google.html)",
+      "remoteIp": "64.233.172.196",
+      "serverIp": "34.143.73.2",
+      "latency": "4.014790934s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "service_name": "ingestionagent",
+        "project_id": "ciro-antigravity-2026",
+        "location": "us-central1",
+        "revision_name": "ingestionagent-00003-zuj",
+        "configuration_name": "ingestionagent"
+      }
+    },
+    "timestamp": "2026-05-14T15:42:40.578961Z",
+    "severity": "INFO",
+    "labels": {
+      "run.googleapis.com/cloud_event_source": "//firestore.googleapis.com/projects/ciro-antigravity-2026/databases/(default)",
+      "instanceId": "0007b734d96eb39e9f6c18d4985ca26062cb1ab3115a7b949988600dac553697d0333fbca7dee6405a91697972d88ef509b8c1d249d19d024c78a09810d57a23be381727696586ea91c3e71d00937e",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "run.googleapis.com/cloud_event_id": "70faa8a6-d8c8-4232-a015-54dc48777058",
+      "goog-drz-cloudfunctions-id": "ingestionagent",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Frequests",
+    "trace": "projects/ciro-antigravity-2026/traces/4a249d48c30acf49ae27c64fe5c2df82",
+    "receiveTimestamp": "2026-05-14T15:42:44.621081380Z",
+    "spanId": "3b66d24940844e5f",
+    "traceSampled": true
+  },
+  {
+    "textPayload": "Ingestion Agent triggered for signal: GfZTBjjsO2ng6H86lOQV",
+    "insertId": "6a05ed700009420c68482192",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "ingestionagent-00003-zuj",
+        "configuration_name": "ingestionagent",
+        "location": "us-central1",
+        "service_name": "ingestionagent",
+        "project_id": "ciro-antigravity-2026"
+      }
+    },
+    "timestamp": "2026-05-14T15:42:40.606732Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-drz-cloudfunctions-id": "ingestionagent",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "instanceId": "0007b734d96eb39e9f6c18d4985ca26062cb1ab3115a7b949988600dac553697d0333fbca7dee6405a91697972d88ef509b8c1d249d19d024c78a09810d57a23be381727696586ea91c3e71d00937e",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "execution_id": "5nqd3w9libdn"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/4a249d48c30acf49ae27c64fe5c2df82",
+    "receiveTimestamp": "2026-05-14T15:42:40.614968026Z",
+    "spanId": "4280339707919093343"
+  },
+  {
+    "textPayload": "Ingestion Agent Output: {\n  \"event_type\": \"flood\",\n  \"credibility_score\": 90,\n  \"severity_estimate\": 8,\n  \"summary\": \"Heavy flooding has been reported in G-10 Markaz, with water submerging vehicles and people reportedly stranded.\",\n  \"flags\": [\n    \"Exact number of people affected unknown\",\n    \"No specific casualties or injuries reported\",\n    \"Precise time of event onset not specified\",\n    \"Exact coordinates within G-10 Markaz not provided\"\n  ]\n}",
+    "insertId": "6a05ed7400079b2c13777040",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "ingestionagent-00003-zuj",
+        "configuration_name": "ingestionagent",
+        "location": "us-central1",
+        "service_name": "ingestionagent",
+        "project_id": "ciro-antigravity-2026"
+      }
+    },
+    "timestamp": "2026-05-14T15:42:44.498476Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-id": "ingestionagent",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "execution_id": "5nqd3w9libdn",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "instanceId": "0007b734d96eb39e9f6c18d4985ca26062cb1ab3115a7b949988600dac553697d0333fbca7dee6405a91697972d88ef509b8c1d249d19d024c78a09810d57a23be381727696586ea91c3e71d00937e"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/4a249d48c30acf49ae27c64fe5c2df82",
+    "receiveTimestamp": "2026-05-14T15:42:44.609574528Z",
+    "spanId": "4280339707919093343"
+  },
+  {
+    "textPayload": "Successfully staged normalized signal.",
+    "insertId": "6a05ed7400095062318213be",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "location": "us-central1",
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "ingestionagent",
+        "revision_name": "ingestionagent-00003-zuj",
+        "configuration_name": "ingestionagent"
+      }
+    },
+    "timestamp": "2026-05-14T15:42:44.610402Z",
+    "severity": "INFO",
+    "labels": {
+      "execution_id": "5nqd3w9libdn",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "instanceId": "0007b734d96eb39e9f6c18d4985ca26062cb1ab3115a7b949988600dac553697d0333fbca7dee6405a91697972d88ef509b8c1d249d19d024c78a09810d57a23be381727696586ea91c3e71d00937e",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-drz-cloudfunctions-id": "ingestionagent"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/4a249d48c30acf49ae27c64fe5c2df82",
+    "receiveTimestamp": "2026-05-14T15:42:44.946293006Z",
+    "spanId": "4280339707919093343"
+  },
+  {
+    "insertId": "6a05ed78000c7e3ca94e2ba5",
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "https://analysisagent-n7kooqduga-uc.a.run.app/?__GCP_CloudEventsMode=CE_PUBSUB_BINDING",
+      "requestSize": "3373",
+      "status": 200,
+      "responseSize": "82",
+      "userAgent": "APIs-Google; (+https://developers.google.com/webmasters/APIs-Google.html)",
+      "remoteIp": "74.125.215.11",
+      "serverIp": "34.143.76.2",
+      "latency": "3.549906123s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "analysisagent-00003-qup",
+        "configuration_name": "analysisagent",
+        "location": "us-central1",
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "analysisagent"
+      }
+    },
+    "timestamp": "2026-05-14T15:42:45.252457Z",
+    "severity": "INFO",
+    "labels": {
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "run.googleapis.com/cloud_event_id": "6981ae29-0a36-4e0d-835f-cd998d609911",
+      "run.googleapis.com/cloud_event_source": "//firestore.googleapis.com/projects/ciro-antigravity-2026/databases/(default)",
+      "instanceId": "0007b734d9850ba74eca67ad17e2142c5d8816d0e23f97c4cdf2bdd56c9ea02ad2c24140c44a9e1094bfc0bb698376b1df71ed0fe02764b7610c8ea7f0133c67a49d9cf9d1961629a5e06a977177c9",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-id": "analysisagent"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Frequests",
+    "trace": "projects/ciro-antigravity-2026/traces/eae9ff9df5b5f24daa3a67c6143c7622",
+    "receiveTimestamp": "2026-05-14T15:42:48.825318609Z",
+    "spanId": "17181fe7a89f1c57",
+    "traceSampled": true
+  },
+  {
+    "textPayload": "Analysis Agent triggered for staged signal: GfZTBjjsO2ng6H86lOQV",
+    "insertId": "6a05ed750004354d76da225d",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "analysisagent",
+        "revision_name": "analysisagent-00003-qup",
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "analysisagent",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2026-05-14T15:42:45.275789Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-drz-cloudfunctions-id": "analysisagent",
+      "execution_id": "5nqgpmtw376t",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "instanceId": "0007b734d9850ba74eca67ad17e2142c5d8816d0e23f97c4cdf2bdd56c9ea02ad2c24140c44a9e1094bfc0bb698376b1df71ed0fe02764b7610c8ea7f0133c67a49d9cf9d1961629a5e06a977177c9",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/eae9ff9df5b5f24daa3a67c6143c7622",
+    "receiveTimestamp": "2026-05-14T15:42:45.284548531Z",
+    "spanId": "1664115142140304471"
+  },
+  {
+    "textPayload": "Analysis Agent Output: {\"is_crisis\": true, \"type\": \"flood\", \"severity\": 8, \"confidence_score\": 90, \"affected_radius\": 500, \"affected_population\": 300, \"expected_duration\": 18.0}",
+    "insertId": "6a05ed78000ab97984297067",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "analysisagent-00003-qup",
+        "configuration_name": "analysisagent",
+        "service_name": "analysisagent",
+        "project_id": "ciro-antigravity-2026",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2026-05-14T15:42:48.702841Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-id": "analysisagent",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "execution_id": "5nqgpmtw376t",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "instanceId": "0007b734d9850ba74eca67ad17e2142c5d8816d0e23f97c4cdf2bdd56c9ea02ad2c24140c44a9e1094bfc0bb698376b1df71ed0fe02764b7610c8ea7f0133c67a49d9cf9d1961629a5e06a977177c9"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/eae9ff9df5b5f24daa3a67c6143c7622",
+    "receiveTimestamp": "2026-05-14T15:42:48.944910809Z",
+    "spanId": "1664115142140304471"
+  },
+  {
+    "textPayload": "🔥 Crisis Declared! Document created in ActiveCrises with ID: crisis_GfZTBjjsO2ng6H86lOQV",
+    "insertId": "6a05ed78000c79b238182328",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "location": "us-central1",
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "analysisagent",
+        "configuration_name": "analysisagent",
+        "revision_name": "analysisagent-00003-qup"
+      }
+    },
+    "timestamp": "2026-05-14T15:42:48.817586Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-drz-cloudfunctions-id": "analysisagent",
+      "execution_id": "5nqgpmtw376t",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "instanceId": "0007b734d9850ba74eca67ad17e2142c5d8816d0e23f97c4cdf2bdd56c9ea02ad2c24140c44a9e1094bfc0bb698376b1df71ed0fe02764b7610c8ea7f0133c67a49d9cf9d1961629a5e06a977177c9",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/eae9ff9df5b5f24daa3a67c6143c7622",
+    "receiveTimestamp": "2026-05-14T15:42:48.944910809Z",
+    "spanId": "1664115142140304471"
+  },
+  {
+    "insertId": "6a05ed7e00087038298c46b8",
+    "httpRequest": {
+      "requestMethod": "POST",
+      "requestUrl": "https://orchestrationagent-n7kooqduga-uc.a.run.app/?__GCP_CloudEventsMode=CE_PUBSUB_BINDING",
+      "requestSize": "2818",
+      "status": 200,
+      "responseSize": "82",
+      "userAgent": "APIs-Google; (+https://developers.google.com/webmasters/APIs-Google.html)",
+      "remoteIp": "64.233.172.165",
+      "serverIp": "34.143.72.2",
+      "latency": "5.017125254s",
+      "protocol": "HTTP/1.1"
+    },
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "orchestrationagent",
+        "revision_name": "orchestrationagent-00002-gul",
+        "location": "us-central1",
+        "service_name": "orchestrationagent",
+        "project_id": "ciro-antigravity-2026"
+      }
+    },
+    "timestamp": "2026-05-14T15:42:49.520260Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-drz-cloudfunctions-id": "orchestrationagent",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "instanceId": "0007b734d95aba60d254d73bed82e553bb972d2773a2ceaecdcaf29e7f46fc357d72141db613097e7af66bb2b5138d79bcd3d63e94bac81c02c036e3b80f63b11cff339ea854cc27740e8d79461d74",
+      "run.googleapis.com/cloud_event_source": "//firestore.googleapis.com/projects/ciro-antigravity-2026/databases/(default)",
+      "run.googleapis.com/cloud_event_id": "7683e619-b874-4605-a3db-9db794ce51f5",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Frequests",
+    "trace": "projects/ciro-antigravity-2026/traces/ff528f3b8453fcd5f7b0fc0e7bd066fd",
+    "receiveTimestamp": "2026-05-14T15:42:54.558470071Z",
+    "spanId": "7b31642212f1d13a",
+    "traceSampled": true
+  },
+  {
+    "textPayload": "Orchestration Agent triggered for crisis: crisis_GfZTBjjsO2ng6H86lOQV",
+    "insertId": "6a05ed79000855e6363498ed",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "orchestrationagent",
+        "revision_name": "orchestrationagent-00002-gul",
+        "location": "us-central1",
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "orchestrationagent"
+      }
+    },
+    "timestamp": "2026-05-14T15:42:49.546278Z",
+    "severity": "INFO",
+    "labels": {
+      "execution_id": "5nqk0942peno",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "instanceId": "0007b734d95aba60d254d73bed82e553bb972d2773a2ceaecdcaf29e7f46fc357d72141db613097e7af66bb2b5138d79bcd3d63e94bac81c02c036e3b80f63b11cff339ea854cc27740e8d79461d74",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-drz-cloudfunctions-id": "orchestrationagent"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/ff528f3b8453fcd5f7b0fc0e7bd066fd",
+    "receiveTimestamp": "2026-05-14T15:42:49.552552096Z",
+    "spanId": "8876986438033461562"
+  },
+  {
+    "textPayload": "Orchestration Agent Plan: A severe flood (8/10 severity) affecting 300 people requires specialized rescue resources such as rescue boats and flood response teams. The only available resource is an ambulance, which is designed for medical transport and is not suitable for primary flood rescue operations. Therefore, no resources from the current list will be deployed for direct flood response. The crisis requires immediate escalation for appropriate rescue assets.",
+    "insertId": "6a05ed7e000869f4dc4cc8b2",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "orchestrationagent",
+        "revision_name": "orchestrationagent-00002-gul",
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "orchestrationagent",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2026-05-14T15:42:54.551412Z",
+    "severity": "INFO",
+    "labels": {
+      "goog-drz-cloudfunctions-id": "orchestrationagent",
+      "goog-drz-cloudfunctions-location": "us-central1",
+      "goog-managed-by": "cloudfunctions",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "instanceId": "0007b734d95aba60d254d73bed82e553bb972d2773a2ceaecdcaf29e7f46fc357d72141db613097e7af66bb2b5138d79bcd3d63e94bac81c02c036e3b80f63b11cff339ea854cc27740e8d79461d74",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "execution_id": "5nqk0942peno"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/ff528f3b8453fcd5f7b0fc0e7bd066fd",
+    "receiveTimestamp": "2026-05-14T15:42:54.881882559Z",
+    "spanId": "8876986438033461562"
+  },
+  {
+    "textPayload": "Deploying Resources: []",
+    "insertId": "6a05ed7e00086aaf7c423ab6",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "orchestrationagent",
+        "revision_name": "orchestrationagent-00002-gul",
+        "location": "us-central1",
+        "project_id": "ciro-antigravity-2026",
+        "service_name": "orchestrationagent"
+      }
+    },
+    "timestamp": "2026-05-14T15:42:54.551599Z",
+    "severity": "INFO",
+    "labels": {
+      "instanceId": "0007b734d95aba60d254d73bed82e553bb972d2773a2ceaecdcaf29e7f46fc357d72141db613097e7af66bb2b5138d79bcd3d63e94bac81c02c036e3b80f63b11cff339ea854cc27740e8d79461d74",
+      "firebase-functions-hash": "86a5d7bd4776233dcfbbb5b3e1366497d3ca7fff",
+      "execution_id": "5nqk0942peno",
+      "run.googleapis.com/base_image_versions": "us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20:nodejs20_20260504_20_20_2_RC00",
+      "goog-drz-cloudfunctions-id": "orchestrationagent",
+      "goog-managed-by": "cloudfunctions",
+      "goog-drz-cloudfunctions-location": "us-central1"
+    },
+    "logName": "projects/ciro-antigravity-2026/logs/run.googleapis.com%2Fstdout",
+    "trace": "projects/ciro-antigravity-2026/traces/ff528f3b8453fcd5f7b0fc0e7bd066fd",
+    "receiveTimestamp": "2026-05-14T15:42:54.881882559Z",
+    "spanId": "8876986438033461562"
+  }
+]

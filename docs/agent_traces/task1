@@ -1,0 +1,5 @@
+- [x] **1. React Native Setup**
+  - [x] Run dependency installations.
+  - [x] Create `firebaseConfig.js`.
+  - [x] Create routing structure in `App.js`.
+  - [x] Scaffold `MapDashboard.js` with `onSnapshot` listeners.

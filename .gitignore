@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Environment variables & Secrets
+.env
+.env.*
+!.env.example
+serviceAccountKey.json
+
+# Firebase
+firebase-debug.log
+firebase-debug.*.log
+.firebase/
+
+# Firebase Cloud Functions (if compiled)
+backend/lib/
+backend/node_modules/
+backend/.env
+backend/tests/serviceAccountKey.json
+backend/tests/firebase_setup.js
+backend/tests/clear-database.js
+backend/tests/package-lock.json
+backend/package-lock.json
+
+# Expo / React Native
+.expo/
+dist/
+web-build/
+ciro-mobile/node_modules/
+ciro-mobile/.expo/
+ciro-mobile/dist/
+ciro-mobile/web-build/
+ciro-mobile/android
+ciro-mobile/package-lock.json
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

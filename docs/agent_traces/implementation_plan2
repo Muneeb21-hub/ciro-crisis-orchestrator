@@ -1,0 +1,33 @@
+# Execution & Simulation Agent Implementation Plan
+
+This plan outlines the architecture and tasks for building the final agent in our Swarm: **The Execution & Simulation Agent**.
+
+## Proposed Changes
+
+### [MODIFY] `d:\CIRO\backend\index.js`
+We will append the new `executionAgent` Cloud Function to the end of the file.
+
+- **Import Update:** Add `onDocumentUpdated` to the existing imports from `firebase-functions/v2/firestore`.
+- **Trigger:** `onDocumentUpdated("Resources/{resourceId}")`.
+- **Role:** Simulate physical actions and handle communication whenever a resource is dispatched.
+- **Logic:**
+  1. Retrieve `event.data.before.data()` and `event.data.after.data()` to check the state transition.
+  2. Evaluate the condition: Proceed *only* if `before.status === 'available'` AND `after.status === 'dispatched'`.
+  3. Extract the `assigned_crisis_id` from the newly updated resource data.
+  4. Perform a Firestore Query: `db.collection('ActiveCrises').doc(crisisId).get()` to fetch the crisis context.
+  5. Construct the prompt for `gemini-2.5-flash`, injecting both the crisis details and the resource details.
+  6. Enforce a strict `responseSchema` for structured outputs:
+     - `action_type` (STRING: 'dispatch', 'reroute', 'alert')
+     - `description` (STRING: A public-facing description)
+     - `expected_impact` (STRING: Expected outcome, e.g., 'Congestion reduced by 30%')
+  7. Parse the AI's response and execute a standard write to the `ActionLogs` collection, including the generated data, the `crisis_id`, and a server `timestamp`.
+
+## Open Questions
+None. The requirements align perfectly with the PRD definitions in Section 2.1 and 3.4.
+
+## Verification Plan
+1. Append the code cleanly, ensuring no template literal escape bugs (`\`) are introduced.
+2. Ensure the `onDocumentUpdated` trigger is correctly structured and filters strictly for the `'available' -> 'dispatched'` state change.
+3. Request your code review before finalizing.
+
+If you approve of this approach, I will execute the code changes!
