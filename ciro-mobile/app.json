@@ -22,7 +22,7 @@
       "predictiveBackGestureEnabled": false,
       "package": "com.muneeb21.ciromobile",
       "googleMaps": {
-        "apiKey": "AIzaSyAnPmrPmvZhkbpHEoAWBh1P12ZX8iJUdCk"
+        "apiKey": "[GCP_API_KEY]"
       }
     },
     "web": {
