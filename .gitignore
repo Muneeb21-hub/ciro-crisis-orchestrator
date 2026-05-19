@@ -15,6 +15,7 @@ firebase-debug.log
 firebase-debug.*.log
 .firebase/
 
+doc
 # Firebase Cloud Functions (if compiled)
 backend/lib/
 backend/node_modules/
