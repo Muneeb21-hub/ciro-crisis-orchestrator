@@ -1,7 +1,0 @@
-- [x] **1. Execution Agent Implementation**
-  - [x] Update imports to include `onDocumentUpdated`.
-  - [x] Append `executionAgent` triggered by `Resources/{resourceId}`.
-  - [x] Filter for `available` -> `dispatched` state change.
-  - [x] Implement `ActiveCrises` query for context.
-  - [x] Add Gemini invocation with strict `responseSchema`.
-  - [x] Write action logs to Firestore.
